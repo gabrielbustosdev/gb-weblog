@@ -3,6 +3,8 @@ import { Urbanist } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Header from "@/components/Header";
+import { Analytics } from '@vercel/analytics/react';
+
 const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -23,6 +25,7 @@ export default function RootLayout({
         <Navbar />
         <Header />
         {children}
+        <Analytics />
       </body>
     </html>
   );
