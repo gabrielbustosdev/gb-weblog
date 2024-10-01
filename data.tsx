@@ -32,13 +32,13 @@ export const itemsNavbar = [
         icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
         link: "/about-me",
     },
+    /*
     {
         id: 3,
         title: "Book",
         icon: <BookText size={25} color="#fff" strokeWidth={1} />,
         link: "/posts",
     },
-    /*
     {
         id: 4,
         title: "Target",
