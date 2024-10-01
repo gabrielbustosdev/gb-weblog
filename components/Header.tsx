@@ -3,8 +3,12 @@
 import { socialNetworks } from "@/data";
 import Link from "next/link";
 import { MotionTransition } from "./TransitionComponents";
+import { usePathname } from 'next/navigation';
 
 const Header = () => {
+    const pathname = usePathname();
+    const isPostsPage = pathname === '/posts';
+
     return (
         <MotionTransition position="bottom" className="absolute z-40 inline-block w-full top-5">
             <header>
@@ -12,7 +16,9 @@ const Header = () => {
                     <Link href='/'>
                         <h1 className="my-3 text-4xl font-bold text-center md:text-left">
                             Gabi
-                            <span className="text-secondary">Dev</span>
+                            <span className={`${isPostsPage ? 'text-green-800' : 'text-secondary'}`}>
+                                {isPostsPage ? 'Blog' : 'Dev'}
+                            </span>
                         </h1>
                     </Link>
                     <div className="flex items-center justify-center gap-7">
