@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Gabriel Bustos",
   description: "Personal website of Gabriel Bustos - Portfolio and blog",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/rocket.ico",
   },
 };
 
