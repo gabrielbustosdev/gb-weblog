@@ -74,16 +74,6 @@ const Post: React.FC<PostProps> = ({ postId }) => {
             <p className="text-gray-600 mb-2">Autor: {post.autor}</p>
             <p className="text-gray-600 mb-4">Fecha: {new Date(post.fechaPublicacion).toLocaleDateString('es-ES')}</p>
             {post.categoria && <p className="text-gray-600 mb-2">Categoría: {post.categoria}</p>}
-            {post.etiquetas.length > 0 && (
-                <div className="mb-4">
-                    <p className="text-gray-600 mb-2">Etiquetas:</p>
-                    <ul className="flex flex-wrap gap-2">
-                        {post.etiquetas.map((etiqueta, index) => (
-                            <li key={index} className="bg-gray-200 px-2 py-1 rounded-full text-sm">{etiqueta}</li>
-                        ))}
-                    </ul>
-                </div>
-            )}
             <p className="text-gray-600 mb-2">Vistas: {post.vistas}</p>
             <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: applyCustomStyles(post.contenido) }}></div>
 
