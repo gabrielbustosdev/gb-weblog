@@ -10,19 +10,21 @@ export default function AboutMePage() {
         <div className="container mx-auto px-4 md:px-16 py-8 mt-24">
           <div className="flex flex-col md:flex-row items-center justify-between">
 
-            <div className="md:w-1/2 mb-8 md:mb-0 md:pr-16">
-              <h1 className="text-4xl font-bold mb-4"><span className="text-secondary">Hola! </span>soy Gabriel Bustos</h1>
-              <p className="text-xl mb-4">
+            <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-16">
+              <h1 className="text-3xl md:text-4xl font-bold mb-4"><span className="text-secondary">Hola! </span>soy Gabriel Bustos</h1>
+              <p className="text-lg md:text-xl mb-4">
                 Soy un desarrollador fullStack apasionado por crear experiencias digitales únicas.
               </p>
-              <p className="text-lg mb-4">
+              <p className="text-base md:text-lg mb-4">
                 Con experiencia en el diseño y desarrollo de aplicaciones web, me esfuerzo por combinar funcionalidad y estética para ofrecer experiencias de usuario excepcionales.
               </p>
               <a href="/contact"
-                className="px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary" >
+                className="inline-block px-3 py-2 my-5 transition-all border-2 cursor-pointer text-sm md:text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary" >
                 Contacta conmigo
               </a>
-              <Carrusel />
+              <div className="mt-8">
+                <Carrusel />
+              </div>
             </div>
 
             <div className="md:w-1/2 bg-white bg-opacity-10 p-6 rounded-lg">
