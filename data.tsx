@@ -269,7 +269,7 @@ export const dataSkills = [
         id: 4,
         title: "JavaScript",
         description: "JavaScript es un lenguaje de programación utilizado para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
-        imageUrl: "/icons/javaScript.svg",
+        imageUrl: "/icons/JavaScript.svg",
     },  
     {
         id: 5,
@@ -311,7 +311,7 @@ export const dataSkills = [
         id: 11,
         title: "Kubernetes",
         description: "Kubernetes es una plataforma de contenedores utilizada para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
-        imageUrl: "/icons/kubernetes.svg",
+        imageUrl: "/icons/Kubernetes.svg",
     },
     {
         id: 12, 
