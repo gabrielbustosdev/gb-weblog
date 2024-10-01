@@ -18,8 +18,11 @@ export default function AboutMePage() {
               <p className="text-base md:text-lg mb-4">
                 Con experiencia en el diseño y desarrollo de aplicaciones web, me esfuerzo por combinar funcionalidad y estética para ofrecer experiencias de usuario excepcionales.
               </p>
-              <a href="/contact"
-                className="inline-block px-3 py-2 my-5 transition-all border-2 cursor-pointer text-sm md:text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary" >
+              <a href="https://wa.me/5493516864617"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-white bg-green-500 border-green-500 rounded-xl hover:shadow-xl hover:shadow-green-500/50">
+                <Image src="/icons/whatsapp.svg" width={24} height={24} alt="WhatsApp" className="mr-2" />
                 Contacta conmigo
               </a>
               <div className="mt-8">

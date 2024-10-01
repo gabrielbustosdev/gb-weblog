@@ -32,6 +32,7 @@ export const itemsNavbar = [
         icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
         link: "/about-me",
     },
+    /*
     {
         id: 3,
         title: "Book",
@@ -49,7 +50,7 @@ export const itemsNavbar = [
         title: "Home",
         icon: <Speech size={25} color="#fff" strokeWidth={1} />,
         link: "/testimonials",
-    },
+    },*/
 ];
 
 export const dataAboutPage = [
