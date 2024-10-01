@@ -245,3 +245,97 @@ export const dataTestimonials = [
         imageUrl: "/profile6.png",
     },
 ];
+
+export const dataSkills = [
+    {
+        id: 1,
+        title: "React",
+        description: "React es una biblioteca de JavaScript para construir interfaces de usuario. Es utilizada para crear aplicaciones web interactivas y dinámicas.",
+        imageUrl: "/icons/react.svg",
+    },
+    {
+        id: 2,
+        title: "Node.js",
+        description: "Node.js es un entorno de ejecución de JavaScript que permite ejecutar código JavaScript en el servidor. Es utilizado para crear aplicaciones web dinámicas y escalables.",
+        imageUrl: "/icons/nodejs.svg",
+    },
+    {
+        id: 3,
+        title: "TypeScript",
+        description: "TypeScript es un lenguaje de programación tipado estáticamente que se ejecuta en el navegador y en el servidor. Es utilizado para crear aplicaciones web modernas y seguras.",
+        imageUrl: "/icons/typescript.svg",
+    },
+    {
+        id: 4,
+        title: "JavaScript",
+        description: "JavaScript es un lenguaje de programación utilizado para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
+        imageUrl: "/icons/javascript.svg",
+    },  
+    {
+        id: 5,
+        title: "HTML5",
+        description: "HTML5 es un lenguaje de marcado utilizado para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
+        imageUrl: "/icons/html5.svg",
+    },
+    {
+        id: 6,  
+        title: "CSS3",
+        description: "CSS3 es un lenguaje de estilos utilizado para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
+        imageUrl: "/icons/css3.svg",
+    },
+    {
+        id: 7,
+        title: "TailwindCSS",
+        description: "TailwindCSS es un framework de CSS utilizado para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
+        imageUrl: "/icons/tailwindcss.svg", 
+    },
+    {
+        id: 8,
+        title: "PostgreSQL",
+        description: "PostgreSQL es un sistema de gestión de bases de datos relacional utilizado para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
+        imageUrl: "/icons/postgresql.svg",
+    },
+    {
+        id: 9,  
+        title: "MongoDB",
+        description: "MongoDB es un sistema de gestión de bases de datos NoSQL utilizado para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
+        imageUrl: "/icons/mongodb.svg",
+    },
+    {
+        id: 10,
+        title: "Docker",
+        description: "Docker es una plataforma de contenedores utilizada para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
+        imageUrl: "/icons/docker.svg",  
+    },
+    {
+        id: 11,
+        title: "Kubernetes",
+        description: "Kubernetes es una plataforma de contenedores utilizada para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
+        imageUrl: "/icons/kubernetes.svg",
+    },
+    {
+        id: 12, 
+        title: "FastAPI",
+        description: "FastAPI es un framework de Python utilizado para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
+        imageUrl: "/icons/fastapi.svg",
+    },
+    {
+        id: 13,
+        title: "Bitbucket",
+        description: "Bitbucket es una plataforma de control de versiones utilizada para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
+        imageUrl: "/icons/bitbucket.svg",
+    },
+    {
+        id: 14,
+        title: "Angular",
+        description: "Angular es un framework de JavaScript utilizado para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
+        imageUrl: "/icons/angular.svg",
+    },
+    {
+        id: 16,
+        title: "GitHub",
+        description: "GitHub es una plataforma de control de versiones utilizada para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
+        imageUrl: "/icons/github.svg",
+    }
+];
+
