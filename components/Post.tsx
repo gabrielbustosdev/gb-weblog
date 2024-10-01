@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { Post as PostType } from '../types/Post';
-
+import Image from 'next/image';
 
 interface PostProps {
     postId: string | string[] | undefined;
@@ -65,7 +65,13 @@ const Post: React.FC<PostProps> = ({ postId }) => {
         <div className="mx-auto">
             <div className="flex flex-col items-center">
                 <div className="relative w-full h-64 mb-4 rounded-lg overflow-hidden">
-                    <img src={post.imagenUrl} alt={post.titulo} className="absolute inset-0 w-full h-full object-cover" />
+                    <Image 
+                        src={`/blogImages/${postId}.jpg`} 
+                        alt={post.titulo} 
+                        layout="fill" 
+                        objectFit="cover" 
+                        className="absolute inset-0 w-full h-full" 
+                    />
                     <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                         <h1 className="text-3xl font-bold text-white text-center">{post.titulo}</h1>
                     </div>
@@ -74,6 +80,7 @@ const Post: React.FC<PostProps> = ({ postId }) => {
             <p className="text-gray-600 mb-2">Autor: {post.autor}</p>
             <p className="text-gray-600 mb-4">Fecha: {new Date(post.fechaPublicacion).toLocaleDateString('es-ES')}</p>
             {post.categoria && <p className="text-gray-600 mb-2">Categoría: {post.categoria}</p>}
+
             <p className="text-gray-600 mb-2">Vistas: {post.vistas}</p>
             <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: applyCustomStyles(post.contenido) }}></div>
 

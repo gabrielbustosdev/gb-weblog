@@ -3,6 +3,7 @@
 import { dataSkills } from "@/data";
 import { motion, useAnimation } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
+import Image from 'next/image';
 
 export default function Carrusel() {
     const [duplicatedIcons, setDuplicatedIcons] = useState(dataSkills);
@@ -43,7 +44,7 @@ export default function Carrusel() {
             >
                 {duplicatedIcons.map((skill, index) => (
                     <div key={`${skill.id}-${index}`} className="flex flex-col items-center">
-                        <img src={skill.imageUrl} alt={skill.title} className="w-16 h-16" />
+                        <Image src={skill.imageUrl} alt={skill.title} width={500} height={300} />
                         <p className="mt-2 text-sm">{skill.title}</p>
                     </div>
                 ))}
