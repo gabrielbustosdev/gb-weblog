@@ -28,9 +28,8 @@ const PostList = () => {
   return (
     <div>
       {posts.map(post => (
-        <Link href={`/posts/${post.id}`}>
+        <Link href={`/posts/${post.id}`} key={post.id}>
           <div
-            key={post.id}
             className="mb-4 p-4 bg-cover bg-center text-white rounded-lg shadow-md opacity-80 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-50"
             style={{
               backgroundImage: `url(/blogImages/${post.id}.jpg)`,
