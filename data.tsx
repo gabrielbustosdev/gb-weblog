@@ -275,13 +275,13 @@ export const dataSkills = [
         id: 5,
         title: "HTML5",
         description: "HTML5 es un lenguaje de marcado utilizado para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
-        imageUrl: "/icons/html5.svg",
+        imageUrl: "/icons/HTML5.svg",
     },
     {
         id: 6,  
         title: "CSS3",
         description: "CSS3 es un lenguaje de estilos utilizado para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
-        imageUrl: "/icons/css3.svg",
+        imageUrl: "/icons/CSS3.svg",
     },
     {
         id: 7,
@@ -311,7 +311,7 @@ export const dataSkills = [
         id: 11,
         title: "Kubernetes",
         description: "Kubernetes es una plataforma de contenedores utilizada para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
-        imageUrl: "/icons/kubernetes.svg",
+        imageUrl: "/icons//kubernetes.svg",
     },
     {
         id: 12, 
@@ -335,7 +335,7 @@ export const dataSkills = [
         id: 16,
         title: "GitHub",
         description: "GitHub es una plataforma de control de versiones utilizada para crear aplicaciones web interactivas y dinámicas. Es utilizado para crear aplicaciones web modernas y seguras.",
-        imageUrl: "/icons/github.svg",
+        imageUrl: "/icons/gitHub.svg",
     }
 ];
 
