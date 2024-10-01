@@ -10,6 +10,9 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Gabriel Bustos",
   description: "Personal website of Gabriel Bustos - Portfolio and blog",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
