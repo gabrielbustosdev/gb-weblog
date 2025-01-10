@@ -28,22 +28,13 @@ const Main = () => {
                         />
                     </h1>
 
-                    <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-8">
-                        Como desarrollador fullStack y diseñador de soluciones informáticas, me dedico a combinar diseño y funcionalidad para crear experiencias digitales impactantes y accesibles.
+                    <p className="mx-auto mb-2 text-xl md:text-lg md:mx-0 md:mb-8">
+                        Bienvenid@s a mi web personal, un portafolio donde comparto mis trabajos 
+                        y avances de mi carrera profesional. Desde mi primer contacto con las computadoras quedé fasinado 
+                        y desperto una inmensa curiosidad por su funcionamiento, apenas pude hice un curso de Tecnico de hardware de pc y redes informaticas 
+                        lo que amplió mi conocimento y me impulso a seguir aprendiendo mas, luego aprendí a programar mediante cursos y la carrera que actualmente curso 
+                        de Ciencias de la computación, llevo programando mas de 4 años y hoy en día me estoy formando en el analisis de datos.
                     </p>
-
-                    <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
-                        <a href="/projects" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
-                            Ver proyectos
-                        </a>
-                        <a href="https://wa.me/5493516864617"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           className="flex items-center px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-white bg-green-500 border-green-500 rounded-xl hover:shadow-xl hover:shadow-green-500/50">
-                            <Image src="/icons/whatsapp.svg" width={24} height={24} alt="WhatsApp" className="mr-2" />
-                            Contacta conmigo
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>

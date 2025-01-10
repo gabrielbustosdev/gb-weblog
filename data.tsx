@@ -1,20 +1,15 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Instagram, Github, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, InstagramIcon, Github, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "https://www.linkedin.com/in/gabrielbustosarg/",
-    },
-    {
-        id: 2,
-        logo: <Instagram size={30} strokeWidth={1} />,
-        src: "https://www.instagram.com/gabrielbustos404/",
+        src: "https://www.linkedin.com/in/gabrielbustosdev/",
     },
     {
         id: 3,
         logo: <Github size={30} strokeWidth={1} />,
-        src: "https://github.com/gabrielbustosweb",
+        src: "https://github.com/gabrielbustosdev",
     }
 ];
 
@@ -32,7 +27,18 @@ export const itemsNavbar = [
         icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
         link: "/about-me",
     },
+    {
+        id: 3,
+        title: "Target",
+        icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
+        link: "/projects",
+    }
     /*
+    {
+        id: 2,
+        logo: <InstagramIcon size={30} strokeWidth={1} />,
+        src: "https://www.instagram.com/gabrielbustos404/",
+    },
     {
         id: 3,
         title: "Book",

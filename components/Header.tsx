@@ -15,9 +15,9 @@ const Header = () => {
                 <div className="container justify-between max-w-6xl mx-auto md:flex">
                     <Link href='/'>
                         <h1 className="my-3 text-4xl font-bold text-center md:text-left">
-                            Gabi
+                            Gabriel
                             <span className={`${isPostsPage ? 'text-green-800' : 'text-secondary'}`}>
-                                {isPostsPage ? 'Blog' : 'Dev'}
+                                {isPostsPage ? ' Bustos - Blog' : ' Bustos'}
                             </span>
                         </h1>
                     </Link>
